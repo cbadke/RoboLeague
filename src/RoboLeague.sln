@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudServices", "CloudServices\CloudServices.ccproj", "{D962B24D-6998-40B0-AD34-54CE26B02A62}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RunsGames", "RunsGames\RunsGames.fsproj", "{B4865AE3-62A7-4A74-A86C-33E52DB74ECE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSite", "WebSite", "{31BE09C2-01B5-46D3-88EE-EA2A506621F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TournamentManagement", "TournamentManagement", "{5D45E4E7-240E-4058-A465-A58A571FA89E}"
@@ -39,28 +35,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{F41330C9-8D6D-402F-B722-61663D9B8E0E}"
-	ProjectSection(SolutionItems) = preProject
-		..\devEnvironment\helpers\Install-FakeDll.ps1 = ..\devEnvironment\helpers\Install-FakeDll.ps1
-		..\devEnvironment\helpers\Install-ServiceBus.ps1 = ..\devEnvironment\helpers\Install-ServiceBus.ps1
-		..\devEnvironment\helpers\Microsoft.Cloud.Common.AzureStorage.dll = ..\devEnvironment\helpers\Microsoft.Cloud.Common.AzureStorage.dll
-		..\devEnvironment\helpers\Remove-FakeDll.ps1 = ..\devEnvironment\helpers\Remove-FakeDll.ps1
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D962B24D-6998-40B0-AD34-54CE26B02A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D962B24D-6998-40B0-AD34-54CE26B02A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D962B24D-6998-40B0-AD34-54CE26B02A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D962B24D-6998-40B0-AD34-54CE26B02A62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4865AE3-62A7-4A74-A86C-33E52DB74ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4865AE3-62A7-4A74-A86C-33E52DB74ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4865AE3-62A7-4A74-A86C-33E52DB74ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4865AE3-62A7-4A74-A86C-33E52DB74ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -70,10 +50,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B4865AE3-62A7-4A74-A86C-33E52DB74ECE} = {5D45E4E7-240E-4058-A465-A58A571FA89E}
 		{52854971-5E07-4138-8FD8-9732026079FD} = {8FBB3D2E-53F4-4D84-9A34-39DF29E3DB12}
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359} = {AE8E1D46-D3DF-4299-A23E-1219656C486F}
 		{8B4674E0-1E15-4AA8-A49E-D3055860E2BA} = {8FBB3D2E-53F4-4D84-9A34-39DF29E3DB12}
-		{F41330C9-8D6D-402F-B722-61663D9B8E0E} = {8B4674E0-1E15-4AA8-A49E-D3055860E2BA}
 	EndGlobalSection
 EndGlobal

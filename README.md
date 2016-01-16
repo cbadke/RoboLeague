@@ -26,9 +26,7 @@ These prerequisites reflect what was installed during development. The exact ver
 be particularly important in all cases.
 
 * VS2015 w/ F#
-* Azure SDK 2.7.1+
-* SQL Server or SQL Express running locally
-* Windows Azure Pack: Service Bus 1.1 (WebPI)
+* Azure SDK 2.8
 
 To configure you development environment you can run
 `~/devEnvironment/setup.ps1` as admin. For more explanation on environment
