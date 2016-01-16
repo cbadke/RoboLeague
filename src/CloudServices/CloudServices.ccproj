@@ -4,8 +4,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>2.7</ProductVersion>
-    <ProjectGuid>d962b24d-6998-40b0-ad34-54ce26b02a62</ProjectGuid>
+    <ProductVersion>2.8</ProductVersion>
+    <ProjectGuid>c21f3e62-202f-4f24-b703-290ba2f6d063</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CloudServices</RootNamespace>
@@ -39,7 +39,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RunsGames\RunsGames.fsproj">
       <Name>RunsGames</Name>
-      <Project>{b4865ae3-62a7-4a74-a86c-33e52db74ece}</Project>
+      <Project>{cc6de122-8c1b-4b6c-8796-78b1a975d4e9}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
       <RoleName>RunsGames</RoleName>

@@ -10,7 +10,8 @@
           <FailedRequestLogs containerName ="wad-failedrequestlogs" />
         </Directories>
         <WindowsEventLog scheduledTransferPeriod="PT1M" >
-          <DataSource name="Application!*" />
+          <DataSource name="Application!*[System[(Level=1 or Level=2 or Level=3)]]" />
+          <DataSource name="Windows Azure!*[System[(Level=1 or Level=2 or Level=3 or Level=4)]]" />
         </WindowsEventLog>
         <CrashDumps containerName="wad-crashdumps" dumpType="Mini">
           <CrashDumpConfiguration processName="WaIISHost.exe"/>

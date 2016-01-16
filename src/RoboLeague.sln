@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudServices", "CloudServices\CloudServices.ccproj", "{C21F3E62-202F-4F24-B703-290BA2F6D063}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RunsGames", "RunsGames\RunsGames.fsproj", "{CC6DE122-8C1B-4B6C-8796-78B1A975D4E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{758C2D77-A6CD-4C1D-828E-3F2FE6ECC359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21F3E62-202F-4F24-B703-290BA2F6D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21F3E62-202F-4F24-B703-290BA2F6D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21F3E62-202F-4F24-B703-290BA2F6D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21F3E62-202F-4F24-B703-290BA2F6D063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6DE122-8C1B-4B6C-8796-78B1A975D4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6DE122-8C1B-4B6C-8796-78B1A975D4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6DE122-8C1B-4B6C-8796-78B1A975D4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6DE122-8C1B-4B6C-8796-78B1A975D4E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
